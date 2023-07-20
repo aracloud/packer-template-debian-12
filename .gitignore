@@ -15,3 +15,5 @@ vars/debian_11.pkrvars.hcl
 
 # For built boxes
 *.box
+
+packer.log
