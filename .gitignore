@@ -11,6 +11,7 @@ crash.log
 # subject to change depending on the environment.
 #
 vars.pkrvars.hcl
+vars/debian_11.pkrvars.hcl.sample
 
 # For built boxes
 *.box
