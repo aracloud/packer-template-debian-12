@@ -1,4 +1,4 @@
-source "proxmox-iso" "debian-11" {
+source "proxmox-iso" "debian-12" {
   proxmox_url              = "https://${var.proxmox_host}/api2/json"
   username                 = var.proxmox_api_user
   password                 = var.proxmox_api_password
