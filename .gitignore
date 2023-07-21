@@ -12,8 +12,10 @@ crash.log
 #
 vars.pkrvars.hcl
 vars/debian_11.pkrvars.hcl
+vars/debian.pkrvars.hcl
 
 # For built boxes
 *.box
 
+# debug
 packer.log
