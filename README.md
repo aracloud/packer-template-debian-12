@@ -1,11 +1,12 @@
 # Packer Debian 11 (Bullseye) Template for Proxmox
 
-Packer configuration for creating Debian 11 virtual machine templates for Proxmox VE. Inspired by, and based upon the work started by, [Roman Tomjak](https://github.com/romantomjak/packer-proxmox-template)
+Packer configuration for creating Debian virtual machine templates for Proxmox VE. Inspired by, and based upon the work started by, [Roman Tomjak](https://github.com/romantomjak/packer-proxmox-template)
 
 ## Requirements
 
 - [Packer](https://www.packer.io/downloads) 1.8.0+
 - [Proxmox VE](https://www.proxmox.com/en/proxmox-ve) 7.3+
+- [Debian Netinst ISO](https://get.debian.org/images/release/current/amd64/iso-cd/debian-12.0.0-amd64-netinst.iso) 12+
 
 ## Minimum background information
 
@@ -23,7 +24,7 @@ Templates are created by converting an existing VM to a template. As soon as the
 
 Here's how:
 
-Variables from the `debian-11-bullseye.source.pkr.hcl` can be overridden like so:
+Variables from the `debian.source.pkr.hcl` can be overridden like so:
 
 ```sh
 $ packer init
@@ -34,7 +35,7 @@ or you can just as easily specify a file that contains the variables and multipl
 
 ```sh
 $ packer init
-$ packer build -var-file vars/debian_11.pkrvars.hcl -var-file vars.pkrvars.hcl.sample .
+$ packer build -var-file vars/debian.pkrvars.hcl -var-file vars.pkrvars.hcl.sample .
 ```
 
 Be sure to adjust this code as necessary for your setup and to make sure *_NOT_* to commit the `.pkrvars.hcl` file that contains your credentials to your git repository.
