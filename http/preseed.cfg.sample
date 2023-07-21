@@ -47,8 +47,12 @@ d-i mirror/http/proxy string
 
 ### Account setup
 
-# Skip creation of a normal user account.
-d-i passwd/make-user boolean false
+# Creation of a normal user account
+d-i passwd/make-user boolean true
+d-i user-setup-udeb passwd/make-user boolean true
+d-i passwd/user-fullname string <<user fullname>>
+d-i passwd/username string <<username>>
+d-i passwd/user-password-crypted password <<mkpasswd -m sha-512 password>>
 
 # Root password
 d-i passwd/root-password password packer
