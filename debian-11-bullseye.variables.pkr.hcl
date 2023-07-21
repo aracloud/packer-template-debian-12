@@ -48,7 +48,7 @@ variable "memory" {
 
 variable "network_vlan" {
   type    = string
-  default = "10"
+  default = ""
 }
 
 variable "proxmox_api_password" {
