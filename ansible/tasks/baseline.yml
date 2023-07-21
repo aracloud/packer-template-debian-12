@@ -26,3 +26,4 @@
     - tmux
     - unattended-upgrades
     - wget
+    - screen
