@@ -22,7 +22,7 @@ source "proxmox-iso" "debian-12" {
 
   network_adapters {
     bridge   = "vmbr0"
-    firewall = true
+    firewall = false
     model    = "virtio"
     vlan_tag = var.network_vlan
   }
