@@ -30,15 +30,3 @@
         "metrics-addr": "127.0.0.1:9323",
         "experimental": true
       }
-
-- name: adding debian to docker group
-  user:
-    name: debian
-    groups: docker
-    append: yes
-
-- name: adding ndee to docker group
-  user:
-    name: ndee
-    groups: docker
-    append: yes
