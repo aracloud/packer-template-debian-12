@@ -19,5 +19,5 @@ vars/debian.pkrvars.hcl
 # debug
 packer.log
 
-http/preseed.cfg
 http/cloud.cfg
+http/preseed.cfg
