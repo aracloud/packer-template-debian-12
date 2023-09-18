@@ -22,4 +22,4 @@ packer.log
 http/cloud.cfg
 http/preseed.cfg
 
-ansible/docker.yml
+ansible/tasks/docker.yml
