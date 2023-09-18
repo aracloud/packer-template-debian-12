@@ -27,3 +27,4 @@
     - unattended-upgrades
     - wget
     - screen
+    - vim
