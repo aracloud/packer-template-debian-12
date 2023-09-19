@@ -28,3 +28,4 @@
     - wget
     - screen
     - vim
+    - zsh
