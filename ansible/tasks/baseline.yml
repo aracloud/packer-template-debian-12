@@ -12,6 +12,7 @@
     autoremove: yes
     autoclean: yes
   loop:
+    - ansible
     - apt-transport-https
     - ca-certificates
     - cloud-init
@@ -21,11 +22,11 @@
     - linux-headers-amd64
     - linux-image-amd64
     - ncdu
+    - screen
     - sudo
     - software-properties-common
     - tmux
     - unattended-upgrades
     - wget
-    - screen
     - vim
     - zsh
