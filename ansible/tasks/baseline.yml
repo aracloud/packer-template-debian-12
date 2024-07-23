@@ -29,4 +29,5 @@
     - unattended-upgrades
     - wget
     - vim
+    - mlocate
     - zsh
