@@ -31,3 +31,5 @@
     - vim
     - mlocate
     - zsh
+    - unzip
+    - tree
