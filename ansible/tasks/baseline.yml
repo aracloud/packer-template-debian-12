@@ -33,3 +33,4 @@
     - zsh
     - unzip
     - tree
+    - qemu-guest-agent
