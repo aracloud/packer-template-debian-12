@@ -2,6 +2,10 @@
 
 Packer configuration for creating Debian virtual machine templates for Proxmox VE. Inspired by, and based upon the work started by, [Roman Tomjak](https://github.com/romantomjak/packer-proxmox-template)
 
+## Last tested
+
+- 2025-01-13
+
 ## Requirements
 
 - [Packer](https://www.packer.io/downloads) 1.8.0+
